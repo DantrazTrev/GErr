@@ -31,4 +31,4 @@ records(message: "Olympics are starting soon http://www.nbcolympics.com")
 > build using puppeteer to retrive titles for all pages . It just spins up a browser
 > instance and navigates to the page to retrieve the title
 
-that's it ✌🏽
+that's it hope to hear from you soon ✌🏽
