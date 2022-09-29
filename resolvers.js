@@ -2,7 +2,7 @@ const fetch = require('node-fetch');
 const URL = require("url").URL;
 
 const mentionREGEX = /@([A-Z0-9]+)\b(^|\s)/gi
-const emojiREGEX = /\(([A-Z0-9]{1,15})\).*[^)]*/gi
+const emojiREGEX = /\(([A-Z0-9]{1,15})\)/gi
 const linkREGEX = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig
 
 const genericFinder = (string, regEx,) => {
