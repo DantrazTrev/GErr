@@ -7,6 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "wdio": "wdio run wdio.conf.js"
   },
+  "engines": {
+    "node": "16.13.0"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
